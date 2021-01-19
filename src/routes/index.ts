@@ -4,6 +4,8 @@ import { composeFile } from '../controllers/compose.controller';
 import { revertFile } from '../controllers/revert.controller';
 import { languages } from '../api/languages';
 
+const LEARNING_MAGIT = "gonna take a while"
+
 const storage = multer.memoryStorage();
 
 const upload: multer.Instance = multer({
