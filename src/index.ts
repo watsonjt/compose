@@ -4,7 +4,7 @@ import path from 'path';
 import * as routes from './routes';
 
 dotenv.config();
-
+const test = "magit-test";
 const port = process.env.SERVER_PORT;
 const app = express();
 
